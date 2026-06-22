@@ -1,8 +1,24 @@
+# env files
+.env
+.env.local
+.env.*.local
+
+# python
 __pycache__/
 *.pyc
-.env
 venv/
 .venv/
-.idea/
-.vscode/
 *.pkl
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# logs
+*.log
+
+# node
+node_modules/
